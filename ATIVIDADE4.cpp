@@ -24,7 +24,7 @@ int main () {
     media_anual = (B1 + B2 + B3 + B4) / 4;
        
     //RESPOSTAS
-    cout << "Nome do aluno: " << nome;
+    cout << "Então, " << nome;
     cout << "Média do 1º semestre: " << semestre_1 << endl;
     cout << "Média do 2º semestre: " << semestre_2 << endl;
 

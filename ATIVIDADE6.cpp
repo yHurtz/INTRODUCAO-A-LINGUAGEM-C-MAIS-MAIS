@@ -16,7 +16,7 @@ int main () {
     //CALCULO
     lucro = valor_vendas * porcentagem;
     final = valor_mensal + lucro;
-    aumento = final / valor_mensal - 1 * 100;
+    aumento = (final / valor_mensal - 1) * 100;
 
     cout << "O valor da porcentagem da comissão é de R$" << lucro << ",00" << endl;
     cout << "O salário final do vendedor " << nome << " é de R$" << final << ",00" << endl;

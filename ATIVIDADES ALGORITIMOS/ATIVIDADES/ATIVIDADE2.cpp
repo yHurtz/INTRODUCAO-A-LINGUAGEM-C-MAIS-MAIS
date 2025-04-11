@@ -1,15 +1,17 @@
 #include <iostream>
-#include <cmath>
 
 using namespace std;
 
-int main () {
-    float num;
+int main (){
+    int numero;
 
     cout << "Digite um número inteiro:" << endl;
-    cin << num;
-        if (num % 2 == 0) {
-            cout << num << "se trata de um número par." << endl;
-            else if(num % 2 !=== 0)
-        }
+    cin >> numero;
+
+    if (numero % 2 == 0) {
+        cout << numero << "é um número par." << endl;
+    } else {
+        cout << numero << "é um número impar" << endl;
+    }
+    system("pause");
 }
